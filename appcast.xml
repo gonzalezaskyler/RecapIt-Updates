@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>RecapIt Updates</title>
+        <description>Most recent changes with links to updates.</description>
+        <language>en</language>
+        <item>
+            <title>Version 1.1.0</title>
+            <description>
+                <![CDATA[
+                    <h2>New Features</h2>
+                    <ul>
+                        <li>Added automatic updates via Sparkle</li>
+                        <li>Improved key moments extraction with better timestamp accuracy</li>
+                        <li>Enhanced user interface for settings management</li>
+                    </ul>
+                    
+                    <h2>Bug Fixes</h2>
+                    <ul>
+                        <li>Fixed issue with custom directory persistence</li>
+                        <li>Resolved crash when opening user settings</li>
+                        <li>Fixed excessive test file creation in custom directories</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Tue, 18 Mar 2025 20:00:00 -0500</pubDate>
+            <enclosure
+                url="https://recapit.app/downloads/RecapIt-1.1.0.zip"
+                sparkle:version="1.1.0"
+                sparkle:shortVersionString="1.1.0"
+                length="12345678"
+                type="application/octet-stream"
+                sparkle:edSignature="YOUR_SIGNATURE_HERE" />
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+        </item>
+    </channel>
+</rss>
