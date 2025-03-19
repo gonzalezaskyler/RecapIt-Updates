@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>RecapIt's Changelog</title>
+        <description>Most recent changes with links to updates.</description>
+        <language>en</language>
+        <item>
+            <title>Version 1.0.3 (Bug fixes and improvements)</title>
+            <link>https://justrecapit.io</link>
+            <sparkle:version>1.0.3</sparkle:version>
+            <sparkle:releaseNotesLink>
+                https://updates.justrecapit.io/release-notes/1.0.3.html
+            </sparkle:releaseNotesLink>
+            <pubDate>Wed, 20 Mar 2024 12:00:00 +0000</pubDate>
+            <enclosure 
+                url="https://updates.justrecapit.io/downloads/RecapIt-1.0.3.zip" 
+                length="4343261" 
+                type="application/octet-stream" 
+                sparkle:edSignature="YN1YUoLrYm8tulB+hbF8SqgUFKqd8YNOYyD4LRvXzHE6IPFJhotwECbWWllHeN6BlUeRcwe8u6Q/IUmPGQNdAg==" />
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+        </item>
+    </channel>
+</rss> 
