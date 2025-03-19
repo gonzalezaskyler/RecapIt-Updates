@@ -1,37 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
     <channel>
-        <title>RecapIt Updates</title>
+        <title>RecapIt's Changelog</title>
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 1.1.0</title>
-            <description>
-                <![CDATA[
-                    <h2>New Features</h2>
-                    <ul>
-                        <li>Added automatic updates via Sparkle</li>
-                        <li>Improved key moments extraction with better timestamp accuracy</li>
-                        <li>Enhanced user interface for settings management</li>
-                    </ul>
-                    
-                    <h2>Bug Fixes</h2>
-                    <ul>
-                        <li>Fixed issue with custom directory persistence</li>
-                        <li>Resolved crash when opening user settings</li>
-                        <li>Fixed excessive test file creation in custom directories</li>
-                    </ul>
-                ]]>
-            </description>
-            <pubDate>Tue, 18 Mar 2025 20:00:00 -0500</pubDate>
-            <enclosure
-                url="http://updates.justrecapit.io/RecapIt-1.1.0.zip"
-                sparkle:version="1.1.0"
-                sparkle:shortVersionString="1.1.0"
-                length="12345678"
-                type="application/octet-stream"
-                sparkle:edSignature="YOUR_SIGNATURE_HERE" />
+            <title>Version 1.0.1 (Bug fixes and improvements)</title>
+            <link>https://recapit.app</link>
+            <sparkle:version>1.0.1</sparkle:version>
+            <sparkle:releaseNotesLink>
+                https://recapit.app/release-notes/1.0.1.html
+            </sparkle:releaseNotesLink>
+            <pubDate>Wed, 19 Mar 2025 12:00:00 +0000</pubDate>
+            <enclosure 
+                url="http://updates.justrecapit.io/RecapIt-1.0.1.zip" 
+                length="7735085" 
+                type="application/octet-stream" 
+                sparkle:edSignature="R+fI07EHMJEsMpK1ane4s3fRkWVRz7nTTHYl3FBvX0s=" />
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
         </item>
     </channel>
-</rss>
+</rss> 
