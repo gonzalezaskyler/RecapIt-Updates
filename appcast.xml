@@ -16,7 +16,7 @@
                 url="http://updates.justrecapit.io/RecapIt-1.0.1.zip" 
                 length="7735085" 
                 type="application/octet-stream" 
-                sparkle:edSignature="R+fI07EHMJEsMpK1ane4s3fRkWVRz7nTTHYl3FBvX0s=" />
+                sparkle:edSignature="KEY HERE" />
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
         </item>
     </channel>
