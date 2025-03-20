@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RecapIt Auth Redirect</title>
+    <script>
+        // Run when page loads
+        window.onload = function() {
+            // Get URL parameters
+            const urlParams = new URLSearchParams(window.location.search);
+            const code = urlParams.get('code');
+            const state = urlParams.get('state');
+            
+            if (code) {
+                // Build redirect URL to your app
+                const redirectUrl = `recapit://oauth-callback?code=${code}&state=${state}`;
+                
+                // Show info briefly before redirecting
+                document.getElementById('message').textContent = 'Authorization successful! Redirecting to RecapIt...';
+                
+                // Redirect after a short delay
+                setTimeout(function() {
+                    window.location.href = redirectUrl;
+                }, 1500);
+            } else {
+                document.getElementById('message').textContent = 'Error: Missing authorization code';
+                document.getElementById('manual').style.display = 'block';
+                document.getElementById('code-display').textContent = 'No code found';
+            }
+        };
+    </script>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; text-align: center; padding: 50px; }
+        .container { max-width: 500px; margin: 0 auto; }
+        #manual { display: none; margin-top: 30px; }
+        code { background: #f0f0f0; padding: 3px 6px; border-radius: 3px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>RecapIt Authorization</h1>
+        <p id="message">Processing authorization...</p>
+        
+        <div id="manual">
+            <h3>Manual Code Entry</h3>
+            <p>If RecapIt doesn't open automatically, copy this code and enter it in the app:</p>
+            <code id="code-display"></code>
+        </div>
+    </div>
+</body>
+</html>
