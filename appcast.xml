@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
     <channel>
-        <title>RecapIt's Changelog</title>
+        <title>RecapThat's Changelog</title>
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
+        <item>
+            <title>Version 0.9.2</title>
+            <link>https://recapthat.app</link>
+            <sparkle:version>0.9.2</sparkle:version>
+            <sparkle:releaseNotesLink>
+                https://updates.recapthat.app/release-notes/0.9.2.html
+            </sparkle:releaseNotesLink>
+            <pubDate>Wed, 26 Mar 2025 12:00:00 +0000</pubDate>
+            <enclosure 
+                url="https://updates.recapthat.app/downloads/RecapThat-v0.9.2.dmg" 
+                length="7802865" 
+                type="application/octet-stream" 
+                sparkle:edSignature="DgDew+o2FpYrTm6PWius77JuVIBc2GsEkuVpQw9FNi+/5mPl4IFx2zUrovrJ+qFA49qA/UCB1rZHIkk9OEi1Dw==" />
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+        </item>
         <item>
             <title>Version 1.0.3 (Bug fixes and improvements)</title>
             <link>https://justrecapit.io</link>
@@ -20,4 +35,4 @@
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
         </item>
     </channel>
-</rss> 
+</rss>
