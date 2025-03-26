@@ -5,33 +5,33 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
+            <title>Version 0.9.3</title>
+            <link>https://recapthat.app</link>
+            <sparkle:version>0.9.3</sparkle:version>
+            <sparkle:releaseNotesLink>
+                https://updates.recapthat.app/release-notes/0.9.3.html
+            </sparkle:releaseNotesLink>
+            <pubDate>Wed, 26 Mar 2025 12:00:00 +0000</pubDate>
+            <enclosure 
+                url="https://updates.recapthat.app/RecapThat-v0.9.3.dmg" 
+                length="7828329" 
+                type="application/octet-stream" 
+                sparkle:edSignature="jfWs+npAfr5AVO9bto8mHuqIqyj66urBK2Ni/LfB+BxbHLRN40E5jJWrYtn7+cLwZWj+AVq2eScMto3Q7HHqAA==" />
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+        </item>
+        <item>
             <title>Version 0.9.2</title>
             <link>https://recapthat.app</link>
             <sparkle:version>0.9.2</sparkle:version>
             <sparkle:releaseNotesLink>
                 https://updates.recapthat.app/release-notes/0.9.2.html
             </sparkle:releaseNotesLink>
-            <pubDate>Wed, 26 Mar 2025 12:00:00 +0000</pubDate>
+            <pubDate>Wed, 20 Mar 2024 12:00:00 +0000</pubDate>
             <enclosure 
-                url="https://updates.recapthat.app/downloads/RecapThat-v0.9.2.dmg" 
+                url="https://updates.recapthat.app/RecapThat-v0.9.2.dmg" 
                 length="7802865" 
                 type="application/octet-stream" 
                 sparkle:edSignature="VPkiMEvbm250Yc8GzuCMVgVLvCrXDzjkVEPsNwYZn/FkBDMEv/gvWq/guSG0cZASA8hCqNaZKtgM9hFRi75oBA==" />
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-        </item>
-        <item>
-            <title>Version 1.0.3 (Bug fixes and improvements)</title>
-            <link>https://justrecapit.io</link>
-            <sparkle:version>1.0.3</sparkle:version>
-            <sparkle:releaseNotesLink>
-                https://updates.justrecapit.io/release-notes/1.0.3.html
-            </sparkle:releaseNotesLink>
-            <pubDate>Wed, 20 Mar 2024 12:00:00 +0000</pubDate>
-            <enclosure 
-                url="https://updates.justrecapit.io/downloads/RecapIt-1.0.3.zip" 
-                length="4343261" 
-                type="application/octet-stream" 
-                sparkle:edSignature="YN1YUoLrYm8tulB+hbF8SqgUFKqd8YNOYyD4LRvXzHE6IPFJhotwECbWWllHeN6BlUeRcwe8u6Q/IUmPGQNdAg==" />
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
         </item>
     </channel>
