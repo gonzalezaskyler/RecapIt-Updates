@@ -14,9 +14,9 @@
             <pubDate>Wed, 26 Mar 2025 12:00:00 +0000</pubDate>
             <enclosure 
                 url="https://updates.recapthat.app/RecapThat-v0.9.3.dmg" 
-                length="7828329" 
+                length="7828440" 
                 type="application/octet-stream" 
-                sparkle:edSignature="jfWs+npAfr5AVO9bto8mHuqIqyj66urBK2Ni/LfB+BxbHLRN40E5jJWrYtn7+cLwZWj+AVq2eScMto3Q7HHqAA==" />
+                sparkle:edSignature="O1+cPsPrTMmQAV1AMKhetBhDv3KtHeG7IMnK5FiB7TOeFQoGmB5JPhLr2RPSFrjPU0/hu5lwJaERmySwESjKCA==" />
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
         </item>
         <item>
