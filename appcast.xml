@@ -5,6 +5,21 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
+            <title>Version 0.9.4</title>
+            <link>https://recapthat.app</link>
+            <sparkle:version>0.9.4</sparkle:version>
+            <sparkle:releaseNotesLink>
+                https://updates.recapthat.app/release-notes/0.9.4.html
+            </sparkle:releaseNotesLink>
+            <pubDate>Thu, 27 Mar 2025 19:42:00 +0000</pubDate>
+            <enclosure 
+                url="https://updates.recapthat.app/RecapThat-v0.9.4.dmg" 
+                length="5507156" 
+                type="application/octet-stream" 
+                sparkle:edSignature="bcgrnQJMPoyVCbzqSRSA2thtEazXyfWeha63fRlB9VbPpi7IAe4CjyooORFmhliWn56qg9/E2qTW1sbAfB/5AA==" />
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+        </item>
+        <item>
             <title>Version 0.9.3</title>
             <link>https://recapthat.app</link>
             <sparkle:version>0.9.3</sparkle:version>
